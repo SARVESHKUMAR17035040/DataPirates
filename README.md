@@ -1,7 +1,13 @@
-# Detect-Sortest-Path
-## Meet the Algorithm
- This application supports the following algorithms:
- 
+# DataPirates
+Microsoft Codess Engage 2020
+## PathFinding by DataPirates
+
+See the demo at : [Detect-Sortest-Path](Detect-Sortest-Path)
+
+### Meet the Algorithms
+This application supports the following algorithms:
+
+```
 * AStar*
 * Best First Search
 * Breadth First Search*
@@ -9,6 +15,10 @@
 * Bi-AStar
 * Bi-Best First Search
 * Bi-Dijkstra* 
+```
+The prefix ***Bi*** for the last three finders in the above list stands for the bi-directional searching strategy. These finders can be used by checking the 'Bi-directional' button when an algorithm is selected. 
+>NOTE : Only the Finders marked with asterisks are guaranteed to find the shortest path.
+
 
 ### Features
 * This application makes use of the algorithms mentioned above and tries to find the shortest path.
@@ -20,3 +30,4 @@
 * An alert box warns the user if he selects the algorithm which may not gaurantee the shortest path.
 
 > Please note the algorithms use *Manhattan Heuristic* by default and diagonal movement is prohibited.
+
