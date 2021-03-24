@@ -1,1 +1,22 @@
 # Detect-Sortest-Path
+## Meet the Algorithm
+ This application supports the following algorithms:
+ 
+* AStar*
+* Best First Search
+* Breadth First Search*
+* Dijkstra*
+* Bi-AStar
+* Bi-Best First Search
+* Bi-Dijkstra* 
+
+### Features
+* This application makes use of the algorithms mentioned above and tries to find the shortest path.
+
+* The user has the liberty to choose the staring and endpoints according to his will. Also, there is an option to set obstacles in the path. The default Grid size is set to 42 rows and 60 Columns. However, the grid can be resized under *'Reset Grid'* option. 
+
+* On clicking *'Let's Begin'* , the path is displayed in the grid, and the name of the algorithm used is displayed. An alert box is displayed if the finder was unable to find the path.
+
+* An alert box warns the user if he selects the algorithm which may not gaurantee the shortest path.
+
+> Please note the algorithms use *Manhattan Heuristic* by default and diagonal movement is prohibited.
